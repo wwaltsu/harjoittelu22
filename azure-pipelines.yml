@@ -22,7 +22,7 @@ steps:
     versionSpec: '$(python.version)'
     architecture: 'x64'
 
-- script: pip install robotframework robotframework-pabot robotframework-seleniumlibrary webdrivermanager
+- script: pip install robotframework robotframework-pabot robotframework-seleniumlibrary webdrivermanager robotframework-requests
   displayName: 'Install dependencies'
 
 - powershell: |
